@@ -11,9 +11,6 @@ const contractWithSigner = contract.connect(wallet);
 const contractInteraction = async() => {
     const tx = await contractWithSigner.callme();
     await provider.waitForTransaction(tx.hash);
-    const secondtx = await contractWithSigner.isComplete();
-    await provider.waitForTransaction(secondtx.hash);
-    console.log(secondtx);
 }
 
 contractInteraction();

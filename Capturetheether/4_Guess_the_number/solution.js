@@ -14,10 +14,7 @@ const contractInteraction = async () => {
         value: ethers.utils.parseEther("1")
     }
     const tx = await contractWithSigner.guess(42, overrides);
-    provider.waitForTransaction(tx.hash);
-    const secondTx = await contractWithSigner.isComplete();
-    provider.waitForTransaction(secondTx.hash);
-    console.log(secondTx);
+    await provider.waitForTransaction(tx.hash);
 }
 
 contractInteraction();
