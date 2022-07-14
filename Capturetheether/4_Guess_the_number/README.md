@@ -1,4 +1,4 @@
-# Choose a nickname (Warmup)
+# Guess the number (Lotteries)
 
 ## CATEGORY
 
