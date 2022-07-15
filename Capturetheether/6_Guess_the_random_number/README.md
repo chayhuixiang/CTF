@@ -1,4 +1,4 @@
-# Choose a nickname (Lotteries)
+# Guess the random number (Lotteries)
 
 ## CATEGORY
 
