@@ -3,9 +3,6 @@ require("dotenv").config();
 const ABI = require("./ABI.json");
 
 let provider = ethers.providers.getDefaultProvider("ropsten");
-provider = new ethers.providers.JsonRpcProvider(
-    "https://ropsten.infura.io/v3/27329cef779644bbb38f91c985e66b9e"
-);
 const contractAddress = "0x5E48bdd28B65f0c5f730502825E457A2d6588d07";
 const contract = new ethers.Contract(contractAddress, ABI, provider);
 
