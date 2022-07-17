@@ -1,0 +1,30 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "publicKey",
+				"type": "bytes"
+			}
+		],
+		"name": "authenticate",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "isComplete",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
