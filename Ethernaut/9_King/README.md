@@ -58,3 +58,5 @@ The full solidity code can be found [here](./Exploit.sol)
 1. Deploy the attacker contract, with the address of the king contract 
 2. Call the attack function of the attack contract, initialise the king to our attacker contract
 3. Submit the instance, which will attempt to overwrite the king, but with our fallback entrant function, we will be able to re-overwrite the king with our smart contract instance
+
+NOTE: the attack function in our contract must use .call instead of .transfer or .send to transfer the funds to the king contract or else there will be insuffient gas
