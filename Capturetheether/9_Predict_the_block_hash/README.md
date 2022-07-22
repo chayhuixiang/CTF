@@ -49,7 +49,7 @@ contract PredictTheBlockHashChallenge {
 
 ## Solution
 
-The contract locks in a future block number when the lockinguess funciton is called, so we are unable to check for the blockhash of the function with another contract.
+The contract locks in a future block number when the lockinguess function is called, so we are unable to check for the blockhash of the function with another contract.
 
 Instead we have to go with another approach.
 
