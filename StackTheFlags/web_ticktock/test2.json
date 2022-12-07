@@ -1,0 +1,76 @@
+{
+  "extendedLocation": null,
+  "id": "/subscriptions/bb11df92-eff5-47b6-b940-a3ce6ded6431/resourceGroups/meow-olympurr-resource-group/providers/Microsoft.Storage/storageAccounts/meowvellousappstorage",
+  "identity": {
+    "principalId": null,
+    "tenantId": null,
+    "type": "None",
+    "userAssignedIdentities": null
+  },
+  "kind": "StorageV2",
+  "location": "southeastasia",
+  "managedBy": null,
+  "name": "meowvellousappstorage",
+  "plan": null,
+  "properties": {
+    "accessTier": "Hot",
+    "allowBlobPublicAccess": true,
+    "allowCrossTenantReplication": true,
+    "allowSharedKeyAccess": true,
+    "creationTime": "2022-11-18T03:22:43.8673832Z",
+    "defaultToOAuthAuthentication": false,
+    "encryption": {
+      "keySource": "Microsoft.Storage",
+      "services": {
+        "blob": {
+          "enabled": true,
+          "keyType": "Account",
+          "lastEnabledTime": "2022-11-18T03:22:44.6017448Z"
+        },
+        "file": {
+          "enabled": true,
+          "keyType": "Account",
+          "lastEnabledTime": "2022-11-18T03:22:44.6017448Z"
+        }
+      }
+    },
+    "isHnsEnabled": false,
+    "isNfsV3Enabled": false,
+    "keyCreationTime": {
+      "key1": "2022-11-18T03:22:43.9455044Z",
+      "key2": "2022-11-18T03:22:43.9455044Z"
+    },
+    "minimumTlsVersion": "TLS1_2",
+    "networkAcls": {
+      "bypass": "AzureServices",
+      "defaultAction": "Allow",
+      "ipRules": [],
+      "virtualNetworkRules": []
+    },
+    "primaryEndpoints": {
+      "blob": "https://meowvellousappstorage.blob.core.windows.net/",
+      "dfs": "https://meowvellousappstorage.dfs.core.windows.net/",
+      "file": "https://meowvellousappstorage.file.core.windows.net/",
+      "queue": "https://meowvellousappstorage.queue.core.windows.net/",
+      "table": "https://meowvellousappstorage.table.core.windows.net/",
+      "web": "https://meowvellousappstorage.z23.web.core.windows.net/"
+    },
+    "primaryLocation": "southeastasia",
+    "privateEndpointConnections": [],
+    "provisioningState": "Succeeded",
+    "publicNetworkAccess": "Enabled",
+    "statusOfPrimary": "available",
+    "supportsHttpsTrafficOnly": true
+  },
+  "resourceGroup": "meow-olympurr-resource-group",
+  "sku": {
+    "capacity": null,
+    "family": null,
+    "model": null,
+    "name": "Standard_LRS",
+    "size": null,
+    "tier": "Standard"
+  },
+  "tags": {},
+  "type": "Microsoft.Storage/storageAccounts"
+}

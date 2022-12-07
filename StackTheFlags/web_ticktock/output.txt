@@ -1,0 +1,56 @@
+{"detail":[{"loc":["query","password"],"msg":"field required","type":"value_error.missing"}]}    time_namelookup:  0.003581
+       time_connect:  0.011911
+    time_appconnect:  0.000000
+   time_pretransfer:  0.011927
+      time_redirect:  0.000000
+ time_starttransfer:  0.021059
+                    ----------
+         time_total:  0.021069
+{"detail":[{"loc":["query","password"],"msg":"field required","type":"value_error.missing"}]}    time_namelookup:  0.006898
+       time_connect:  0.044191
+    time_appconnect:  0.000000
+   time_pretransfer:  0.044312
+      time_redirect:  0.000000
+ time_starttransfer:  0.053477
+                    ----------
+         time_total:  0.053519
+{"detail":[{"loc":["query","password"],"msg":"field required","type":"value_error.missing"}]}    time_namelookup:  0.005201
+       time_connect:  0.022262
+    time_appconnect:  0.000000
+   time_pretransfer:  0.022287
+      time_redirect:  0.000000
+ time_starttransfer:  0.031419
+                    ----------
+         time_total:  0.031439
+{"detail":[{"loc":["query","password"],"msg":"field required","type":"value_error.missing"}]}    time_namelookup:  0.005583
+       time_connect:  0.014078
+    time_appconnect:  0.000000
+   time_pretransfer:  0.014113
+      time_redirect:  0.000000
+ time_starttransfer:  0.024343
+                    ----------
+         time_total:  0.024367
+{"detail":[{"loc":["query","password"],"msg":"field required","type":"value_error.missing"}]}    time_namelookup:  0.008233
+       time_connect:  0.022986
+    time_appconnect:  0.000000
+   time_pretransfer:  0.023024
+      time_redirect:  0.000000
+ time_starttransfer:  0.031385
+                    ----------
+         time_total:  0.031412
+{"detail":[{"loc":["query","password"],"msg":"field required","type":"value_error.missing"}]}    time_namelookup:  0.008030
+       time_connect:  0.016521
+    time_appconnect:  0.000000
+   time_pretransfer:  0.016551
+      time_redirect:  0.000000
+ time_starttransfer:  0.025606
+                    ----------
+         time_total:  0.025632
+{"status":"failed"}    time_namelookup:  0.015234
+       time_connect:  0.034818
+    time_appconnect:  0.000000
+   time_pretransfer:  0.034891
+      time_redirect:  0.000000
+ time_starttransfer:  0.145632
+                    ----------
+         time_total:  0.145670
